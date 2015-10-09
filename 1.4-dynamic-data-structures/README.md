@@ -10,7 +10,7 @@ Extend your ATM code to allow adding and removing bank accounts. Obviously, this
 
 * Create a `HashMap` to store everyone's balances. It should map names to balances.
 * When the user types a name that isn't recognized (i.e., isn't in the `HashMap`), offer to create an account for them. Then show them the screen listing the three options like before.
-* Instead of hard-coding a balance of 100, get the balance from the `HashMap`. For example, if the `HashMap` variable is called "accounts", and the name entered by the user is called "name", it would look like this:
+* Instead of hard-coding a balance of 100.0, get the balance from the `HashMap`. For example, if the `HashMap` variable is called "accounts", and the name entered by the user is called "name", it would look like this:
    * `double balance = (double) accounts.get(name);`
    * Note: The `(double)` is called a cast. It's a way of making sure the value you get back is indeed a number.
 * Keep looping back to the beginning until the user cancels. The `HashMap` should keep its previously-set values when it loops around.
