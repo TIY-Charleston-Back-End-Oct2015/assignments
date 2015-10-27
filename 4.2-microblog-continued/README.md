@@ -18,7 +18,7 @@ Add functionality to your microblog.
 * Show the posts as a numbered list (the first post should have a `1.` next to it and so on).
 * Add a form in `posts.html` which lets you delete a post by entering its number.
 * Add a form in `posts.html` which lets you edit a post by entering its number and the text you want to replace it with.
-* Add multi-user support by storing your users in a `HashMap<String, User>` and putting your `ArrayList<Post>` inside the `User` object.
+* Optional: Add multi-user support by storing your users in a `HashMap<String, User>` and putting your `ArrayList<Post>` inside the `User` object.
 
 ![screenshot 1](screenshot1.png)
 ![screenshot 2](screenshot2.png)
