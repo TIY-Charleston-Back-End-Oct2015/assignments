@@ -9,7 +9,6 @@ Fork the [BeerTrackerDatabase](https://github.com/TIY-Charleston-Back-End-Oct201
 ## Requirements
 
 * Create the `Connection` and execute a query to create a `beers` table that stores the beer name and type.
-  * Hint: You don't need a column to store the `id`, because you can just use `ROWNUM` to get it.
 * Write a static method `insertBeer` and run it in the `/create-beer` route. It should insert a new row with the user-supplied information.
 * Write a static method `deleteBeer` and run it in the `/delete-beer` route. It should remove the correct row using `ROWNUM`.
 * Write a static method `selectBeers` that returns an `ArrayList<Beer>` containing all the beers in the database.
