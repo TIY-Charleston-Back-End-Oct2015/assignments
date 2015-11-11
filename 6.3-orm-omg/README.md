@@ -40,4 +40,4 @@ Parse the two csv files and store them PostgreSQL via Spring Data. Then display 
   * If the parameter isn't null, call the method you made instead of `findAll`
   * Displays links at the top that allow you to filter by each category
 
-![screenshot](screenshot.png)
+![screenshot](screenshot2.png)
