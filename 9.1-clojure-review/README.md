@@ -4,7 +4,7 @@
 
 ## Description
 
-Modify the cards-clojure project we made in class so it can filter several other poker hands.
+Modify the Clojure and Java cards projects we made in class so they can filter several other poker hands.
 
 ## Requirements
 
